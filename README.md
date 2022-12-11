@@ -1,5 +1,5 @@
 # SOLID_shop
-Тема: Magics, DRY, SOLID
+**Тема**: Magics, DRY, SOLID
 
 Задача: Магазин
 
