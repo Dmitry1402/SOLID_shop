@@ -7,7 +7,7 @@
 
 Магические числа. Пример - имплементация метода getCount() в [классе OrderImp](https://github.com/bojark/JavaPatternsHomework4/blob/fd526c0d2408f85351f56067d903840f3b6ba162/src/main/java/classes/OrderImp.java#L11). Номер заказа и генерируется, и геттится через методы, а не руками.
 
-DRY. Пример -- реализация интерфейса ConsoleInterface, реализация списка команд через Enum и доступ к нему по методу commands() в Main.
+DRY. Пример -- реализация интерфейса [ConsoleInterface]https://github.com/Dmitry1402/SOLID_shop/blob/ac580fb720589227313c062f2a25e76f7de25c83/src/classes/ConsoleInterfaceImp.java#L1-L33, реализация списка команд через Enum и доступ к нему по методу commands() в Main.
 
 Single Responsibility Principle. Пример -- интерфейсы и асбтрактные классы Category, Cart, Order и т.д., методы в имплементации интерфейса Shop. Все отвечают за свою область задач, связаны через интерфейс Shop.
 
