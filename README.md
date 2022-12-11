@@ -5,7 +5,7 @@
 
 Пояснения:
 
-Магические числа. Пример - имплементация метода getCount() в классе OrderImp[here](https://github.com/bojark/JavaPatternsHomework4/blob/fd526c0d2408f85351f56067d903840f3b6ba162/src/main/java/classes/OrderImp.java#L11). Номер заказа и генерируется, и геттится через методы, а не руками.
+Магические числа. Пример - имплементация метода getCount() в классе OrderImp(https://github.com/bojark/JavaPatternsHomework4/blob/fd526c0d2408f85351f56067d903840f3b6ba162/src/main/java/classes/OrderImp.java#L11). Номер заказа и генерируется, и геттится через методы, а не руками.
 
 DRY. Пример -- реализация интерфейса ConsoleInterface, реализация списка команд через Enum и доступ к нему по методу commands() в Main.
 
