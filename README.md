@@ -9,7 +9,7 @@
 
 DRY. Пример -- реализация интерфейса [ConsoleInterface](https://github.com/Dmitry1402/SOLID_shop/blob/main/src/classes/ConsoleInterfaceImp.java#L1-L33), реализация [списка команд](https://github.com/Dmitry1402/SOLID_shop/blob/main/src/classes/Commands.java) через Enum и доступ к нему по методу [commands()](https://github.com/Dmitry1402/SOLID_shop/blob/2efe24bbab04c06900f8ecadd0d301fb868f58f0/src/classes/Main.java#L80) в Main.
 
-Single Responsibility Principle. Пример -- интерфейсы и асбтрактные классы Category, Cart, Order и т.д., методы в имплементации интерфейса Shop. Все отвечают за свою область задач, связаны через интерфейс Shop.
+Single Responsibility Principle. Пример -- интерфейсы и асбтрактные классы [Category](https://github.com/Dmitry1402/SOLID_shop/blob/main/src/abstracts/Category.java), [Cart](https://github.com/Dmitry1402/SOLID_shop/blob/main/src/abstracts/Cart.java), [Order](https://github.com/Dmitry1402/SOLID_shop/blob/main/src/abstracts/Order.java) и т.д., методы в имплементации интерфейса Shop. Все отвечают за свою область задач, связаны через интерфейс [Shop](https://github.com/Dmitry1402/SOLID_shop/blob/main/src/abstracts/Shop.java).
 
 Open/Close. Пример -- интерфейсы и абстрактные методы практически для всей фунциональности, protected и private поля у реализаций. Это же может служить и примером принципа Dependency inversion principle: интерфейс Shop и его имплементация за редким исключением ссылаются на интерфейсы.
 
